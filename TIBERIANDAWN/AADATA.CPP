@@ -124,7 +124,7 @@ static AircraftTypeClass const TransportHeli(
 		true,					// Is there a crew inside?
 	0,							// Number of shots it has (default).
 	90,						// The strength of this unit.
-	0,							// The range that it reveals terrain around itself.
+	1,							// The range that it reveals terrain around itself.
 	1500,						// Credit cost to construct.
 	98,						// The scenario this becomes available.
 	10,80,					// Risk, reward when calculating AI.
@@ -170,7 +170,7 @@ static AircraftTypeClass const AttackHeli(
 		true,					// Is there a crew inside?
 	15,						// Number of shots it has (default).
 	125,						// The strength of this unit.
-	0,							// The range that it reveals terrain around itself.
+	1,							// The range that it reveals terrain around itself.
 	1200,						// Credit cost to construct.
 	10,						// The scenario this becomes available.
 	10,80,					// Risk, reward when calculating AI.
@@ -216,7 +216,7 @@ static AircraftTypeClass const OrcaHeli(
 		true,					// Is there a crew inside?
 	6,							// Number of shots it has (default).
 	125,						// The strength of this unit.
-	0,							// The range that it reveals terrain around itself.
+	1,							// The range that it reveals terrain around itself.
 	1200,						// Credit cost to construct.
 	10,						// The scenario this becomes available.
 	10,80,					// Risk, reward when calculating AI.
