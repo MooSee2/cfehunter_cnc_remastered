@@ -2272,6 +2272,9 @@ typedef enum VocType : char{
 	VOC_XPLODE,			//	long soft muffled explosion
 	VOC_XPLOS,			//	short crunchy explosion
 	VOC_XPLOSML2,		//	muffled mechanical explosion
+	VOC_ORCALAND,		// Orca landing sound.
+	VOC_ORCATO,			// Orca take off sound.
+
 
 	VOC_SCREAM1,		//	short infantry scream
 	VOC_SCREAM3,		//	short infantry scream
@@ -2310,10 +2313,9 @@ typedef enum VocType : char{
 	VOC_DINOATK1,		// Dino attack sound.
 	VOC_DINODIE1,		// Dino die sound.
 
-	VOC_ORCALAND,		// Orca landing sound.
-	VOC_ORCATO,			// Orca take off sound.
+	/*
 	VOC_NUKE_LOB,		// Modded unit firing sound
-
+	*/
 	VOC_COUNT,
 	VOC_BUILD_SELECT=VOC_TARGET,
 	VOC_FIRST=0

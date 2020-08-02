@@ -169,16 +169,16 @@ struct SoundEffectNameStruct {
 	{"BLEEP2", 		1,		IN_JUV},	// VOC_BLEEP			Clean metal bing
 	{"BOMB1", 		1,		IN_JUV},	// VOC_BOMB1			Crunchy parachute bomb type explosion
 	{"BUTTON", 		1,		IN_JUV},	// VOC_BUTTON			Dungeon Master button click
-	{"COMCNTR1",	10,	IN_JUV},	// VOC_RADAR_ON		Elecronic static with beeps
-	{"CONSTRU2",	10,	IN_JUV},	// VOC_CONSTRUCTION	construction sounds
+	{"COMCNTR1",	10,		IN_JUV},	// VOC_RADAR_ON		Elecronic static with beeps
+	{"CONSTRU2",	10,		IN_JUV},	// VOC_CONSTRUCTION	construction sounds
 	{"CRUMBLE", 	1,		IN_JUV},	// VOC_CRUMBLE			muffled crumble sound
 	{"FLAMER2", 	4,		IN_JUV},	// VOC_FLAMER1			flame thrower
-	{"GUN18",		4, 	IN_JUV},	// VOC_RIFLE			rifle shot
-	{"GUN19",		4, 	IN_JUV},	// VOC_M60				machine gun burst -- 6 rounds
-	{"GUN20",		4, 	IN_JUV},	// VOC_GUN20			bat hitting heavy metal door
-	{"GUN5",			4, 	IN_JUV},	// VOC_M60A				medium machine gun burst
-	{"GUN8",			4, 	IN_JUV},	// VOC_MINI				mini gun burst
-	{"GUNCLIP1",	1, 	IN_JUV},	// VOC_RELOAD			gun clip reload
+	{"GUN18",		4, 		IN_JUV},	// VOC_RIFLE			rifle shot
+	{"GUN19",		4, 		IN_JUV},	// VOC_M60				machine gun burst -- 6 rounds
+	{"GUN20",		4, 		IN_JUV},	// VOC_GUN20			bat hitting heavy metal door
+	{"GUN5",		4, 		IN_JUV},	// VOC_M60A				medium machine gun burst
+	{"GUN8",		4, 		IN_JUV},	// VOC_MINI				mini gun burst
+	{"GUNCLIP1",	1, 		IN_JUV},	// VOC_RELOAD			gun clip reload
 	{"HVYDOOR1", 	5,		IN_JUV},	// VOC_SLAM				metal plates slamming together
 	{"HVYGUN10",	1,		IN_JUV},	//	VOC_HVYGUN10		loud sharp cannon
 	{"ION1", 		1,		IN_JUV},	// VOC_ION_CANNON		partical beam
@@ -192,29 +192,31 @@ struct SoundEffectNameStruct {
 	{"RAMGUN2",		1,		IN_JUV},	//	VOC_SNIPER			silenced rifle fire
 	{"ROCKET1",		1,		IN_JUV},	//	VOC_ROCKET1			rocket launch variation #1
 	{"ROCKET2",		1,		IN_JUV},	//	VOC_ROCKET2			rocket launch variation #2
-	{"SAMMOTR2",	1, 	IN_JUV},	// VOC_MOTOR			dentists drill
-	{"SCOLD2",		1, 	IN_JUV},	// VOC_SCOLD			cannot perform action feedback tone
+	{"SAMMOTR2",	1, 		IN_JUV},	// VOC_MOTOR			dentists drill
+	{"SCOLD2",		1, 		IN_JUV},	// VOC_SCOLD			cannot perform action feedback tone
 	{"SIDBAR1C", 	1,		IN_JUV},	// VOC_SIDEBAR_OPEN	xylophone clink
 	{"SIDBAR2C", 	1,		IN_JUV},	// VOC_SIDEBAR_CLOSE	xylophone clink
 	{"SQUISH2", 	1,		IN_JUV},	// VOC_SQUISH2			crushing infantry
-	{"TNKFIRE2",	1, 	IN_JUV},	// VOC_TANK1			sharp tank fire with recoil
-	{"TNKFIRE3",	1, 	IN_JUV},	// VOC_TANK2			sharp tank fire
-	{"TNKFIRE4",	1, 	IN_JUV},	// VOC_TANK3			sharp tank fire
-	{"TNKFIRE6",	1, 	IN_JUV},	// VOC_TANK4			big gun tank fire
-	{"TONE15",		0, 	IN_JUV},	// VOC_UP				credits counting up
-	{"TONE16",		0, 	IN_JUV},	// VOC_DOWN				credits counting down
-	{"TONE2",		1, 	IN_JUV},	// VOC_TARGET			target sound
-	{"TONE5",		10,	IN_JUV},	// VOC_SONAR			sonar echo
-	{"TOSS",			1, 	IN_JUV},	// VOC_TOSS				air swish
-	{"TRANS1",		1, 	IN_JUV},	// VOC_CLOAK			stealth tank
-	{"TREEBRN1",	1, 	IN_JUV},	// VOC_BURN				burning crackle
-	{"TURRFIR5",	1, 	IN_JUV},	// VOC_TURRET			muffled gunfire
+	{"TNKFIRE2",	1, 		IN_JUV},	// VOC_TANK1			sharp tank fire with recoil
+	{"TNKFIRE3",	1, 		IN_JUV},	// VOC_TANK2			sharp tank fire
+	{"TNKFIRE4",	1, 		IN_JUV},	// VOC_TANK3			sharp tank fire
+	{"TNKFIRE6",	1, 		IN_JUV},	// VOC_TANK4			big gun tank fire
+	{"TONE15",		0, 		IN_JUV},	// VOC_UP				credits counting up
+	{"TONE16",		0, 		IN_JUV},	// VOC_DOWN				credits counting down
+	{"TONE2",		1, 		IN_JUV},	// VOC_TARGET			target sound
+	{"TONE5",		10,		IN_JUV},	// VOC_SONAR			sonar echo
+	{"TOSS",		1, 		IN_JUV},	// VOC_TOSS				air swish
+	{"TRANS1",		1, 		IN_JUV},	// VOC_CLOAK			stealth tank
+	{"TREEBRN1",	1, 		IN_JUV},	// VOC_BURN				burning crackle
+	{"TURRFIR5",	1, 		IN_JUV},	// VOC_TURRET			muffled gunfire
 	{"XPLOBIG4",	5,		IN_JUV},	//	VOC_XPLOBIG4		very long muffled explosion
 	{"XPLOBIG6",	5,		IN_JUV},	//	VOC_XPLOBIG6		very long muffled explosion
 	{"XPLOBIG7",	5,		IN_JUV},	//	VOC_XPLOBIG7		very long muffled explosion
 	{"XPLODE",		1,		IN_JUV},	// VOC_XPLODE			long soft muffled explosion
-	{"XPLOS",		4, 	IN_JUV},	// VOC_XPLOS			short crunchy explosion
+	{"XPLOS",		4, 		IN_JUV},	// VOC_XPLOS			short crunchy explosion
 	{"XPLOSML2",	5,		IN_JUV},	//	VOC_XPLOSML2		muffled mechanical explosion
+	{"ORCALAND", 	1,		IN_JUV},	//	VOC_ORCALAND		Orca take off sound.
+	{"ORCATO",  	1,		IN_JUV },	//	VOC_ORCATO  		Orca landing sound.
 
 	/*
 	**	Generic sound effects (no variations).
@@ -254,8 +256,7 @@ struct SoundEffectNameStruct {
 	{"DINOYES", 	10,	IN_NOVAR},	//	VOC_DINOYES			Yes Sir in dino-speak.
 	{"DINOATK1", 	10,	IN_NOVAR},	//	VOC_DINOATK1		Dino attack sound.
 	{"DINODIE1", 	10,	IN_NOVAR},	//	VOC_DINODIE1		Dino die sound.
-	{"ORCALAND", 	10,	IN_NOVAR},	//	VOC_ORCALAND		Orca take off sound.
-	{"ORCATO",  	10,	IN_NOVAR},	//	VOC_ORCATO  		Orca landing sound.
+
 };
 
 
