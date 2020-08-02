@@ -2310,10 +2310,10 @@ typedef enum VocType : char{
 	VOC_DINOATK1,		// Dino attack sound.
 	VOC_DINODIE1,		// Dino die sound.
 
-#ifdef PETROGLYPH_EXAMPLE_MOD
+	VOC_ORCALAND,		// Orca landing sound.
+	VOC_ORCATO,			// Orca take off sound.
 	VOC_NUKE_LOB,		// Modded unit firing sound
-#endif
-			
+
 	VOC_COUNT,
 	VOC_BUILD_SELECT=VOC_TARGET,
 	VOC_FIRST=0
