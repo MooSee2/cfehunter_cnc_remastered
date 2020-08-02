@@ -2715,11 +2715,16 @@ DirType AircraftClass::Desired_Load_Dir(ObjectClass * object, CELL & moveto) con
 bool AircraftClass::Process_Take_Off(void)
 {
 	Validate();
+	VocType Orca_TO;
 	IsLanding = false;
 	IsTakingOff = true;
 	switch (Altitude) {
 		case 0:
 			Close_Door(5, 4);
+			static VocType _Orca_TO[] = {
+				VOC_ORCATO,
+			};
+			Sound_Effect(VOC_ORCATO, 0, 0);
 			PrimaryFacing = SecondaryFacing;
 			break;
 
