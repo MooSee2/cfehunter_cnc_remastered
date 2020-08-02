@@ -2712,6 +2712,7 @@ DirType AircraftClass::Desired_Load_Dir(ObjectClass * object, CELL & moveto) con
  * HISTORY:                                                                                    *
  *   06/12/1995 JLB : Created.                                                                 *
  *=============================================================================================*/
+#include	"DLLInterface.cpp"
 bool AircraftClass::Process_Take_Off(void)
 {
 	Validate();
@@ -2729,7 +2730,8 @@ bool AircraftClass::Process_Take_Off(void)
 
 			TAKEOFF = VOC_ORCATO;
 
-			Sound_Effect(TAKEOFF, 0, 0);
+			Sound_Effect(TAKEOFF, 0, Aircraft.ID(this) + 1);
+			DLLExportClass::On_Sound_Effect(PlayerPtr, TAKEOFF, ".aud", 1, Aircraft.ID(this) + 1);
 			PrimaryFacing = SecondaryFacing;
 			break;
 
