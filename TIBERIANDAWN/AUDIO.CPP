@@ -215,7 +215,7 @@ struct SoundEffectNameStruct {
 	{"XPLODE",		1,		IN_JUV},	// VOC_XPLODE		long soft muffled explosion
 	{"XPLOS",		4, 		IN_JUV},	// VOC_XPLOS		short crunchy explosion
 	{"XPLOSML2",	5,		IN_JUV},	// VOC_XPLOSML2		muffled mechanical explosion
-	{"ORCALAND", 	1,		IN_JUV},	// VOC_ORCALAND		Orca take off sound.
+	{"ORCALND", 	1,		IN_JUV},	// VOC_ORCALAND		Orca take off sound.
 	{"ORCATO",  	1,		IN_JUV },	// VOC_ORCATO  		Orca landing sound.
 
 	/*
