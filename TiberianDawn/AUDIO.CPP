@@ -209,14 +209,14 @@ struct SoundEffectNameStruct {
 	{"TRANS1",		1, 		IN_JUV},	// VOC_CLOAK			stealth tank
 	{"TREEBRN1",	1, 		IN_JUV},	// VOC_BURN				burning crackle
 	{"TURRFIR5",	1, 		IN_JUV},	// VOC_TURRET			muffled gunfire
-	{"XPLOBIG4",	5,		IN_JUV},	//	VOC_XPLOBIG4		very long muffled explosion
-	{"XPLOBIG6",	5,		IN_JUV},	//	VOC_XPLOBIG6		very long muffled explosion
-	{"XPLOBIG7",	5,		IN_JUV},	//	VOC_XPLOBIG7		very long muffled explosion
-	{"XPLODE",		1,		IN_JUV},	// VOC_XPLODE			long soft muffled explosion
-	{"XPLOS",		4, 		IN_JUV},	// VOC_XPLOS			short crunchy explosion
-	{"XPLOSML2",	5,		IN_JUV},	//	VOC_XPLOSML2		muffled mechanical explosion
-	{ "ORCALAND", 	10,		IN_JUV},	//	VOC_ORCALAND		Orca take off sound.
-	{ "ORCATO",  	10,		IN_JUV },	//	VOC_ORCATO  		Orca landing sound.
+	{"XPLOBIG4",	5,		IN_JUV},	// VOC_XPLOBIG4		very long muffled explosion
+	{"XPLOBIG6",	5,		IN_JUV},	// VOC_XPLOBIG6		very long muffled explosion
+	{"XPLOBIG7",	5,		IN_JUV},	// VOC_XPLOBIG7		very long muffled explosion
+	{"XPLODE",		1,		IN_JUV},	// VOC_XPLODE		long soft muffled explosion
+	{"XPLOS",		4, 		IN_JUV},	// VOC_XPLOS		short crunchy explosion
+	{"XPLOSML2",	5,		IN_JUV},	// VOC_XPLOSML2		muffled mechanical explosion
+	{"ORCALND", 	1,		IN_JUV},	// VOC_ORCALAND		Orca take off sound.
+	{"ORCATO",  	1,		IN_JUV },	// VOC_ORCATO  		Orca landing sound.
 
 	/*
 	**	Generic sound effects (no variations).
